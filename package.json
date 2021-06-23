@@ -1,14 +1,14 @@
 {
   "name": "new-folder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este es un proyecto que planea desarrollar la concepción de comunidad dentro del ambiente psy",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/prueba.scss css/prueba.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Micaela Scanio",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
