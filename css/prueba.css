@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap");
+.header__titulo {
+  color: #f3a9aa; }
+
+body {
+  background-color: white; }
+
+.subtitulo--bordo {
+  color: #60474b; }
+
+.footer__button, .modalButton {
+  background-color: #f3a9aa;
+  color: #60474b; }
+
+.footer__button:hover, .modalButton:hover {
+  color: white;
+  background-color: #60474b; }
+
+.descripcion, .libros, .tallers, .descripcion2, .tituloSeccion, .libros, .headerSeccion, .descripcion2, .navSection, .navSection2, .footer {
+  color: #60474b; }
+
+.navBar {
+  background-color: white; }
+
+.navSection, .navSection2 {
+  color: #b2a0a1; }
+
+.navSection:hover, .navSection2:hover {
+  color: white;
+  background-color: #f3a9aa; }
+
+.navBar2, .navBar {
+  background-color: white; }
+
+.navSection2:hover {
+  background-color: #60474b;
+  color: white; }
+
+.menuHamburguesa {
+  background-color: white;
+  color: #60474b; }
+
+.menuHamburguesa:hover {
+  color: white;
+  background-color: #60474b; }
+
+.footer__button, .modalButton, .navSection, .navSection2, .navSection2 {
+  font-family: 'Raleway', serif;
+  text-transform: uppercase; }
+
+.header__titulo {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: none; }
+
+.headerSeccion {
+  font-family: 'Raleway', serif;
+  text-transform: uppercase; }
+
+.campos {
+  font-family: 'Raleway', serif;
+  font-weight: normal; }
+
+.footer, .dLibro, .descripcion, .libros, .tallers, .descripcion2, .tituloSeccion {
+  font-family: 'Cormorant Garamond', serif; }
+
+.subtitulo--bordo, .nombreLibro, .nombre {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase; }
+
+.tituloSeccion, .libros {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/*ESTILO DEL HEADER DE LA PAG PRINCIPAL*/
+.header__titulo {
+  font-size: 35px;
+  letter-spacing: 5px;
+  padding: 20px;
+  margin: 15px 15px;
+  text-align: center;
+  font-weight: lighter; }
+
+.subtitulo--bordo {
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none; }
+
+/*este es el padding del carrousel*/
+#carouselExampleControls {
+  padding: 20px; }
+
+/*estos son los estilos de los videos*/
+.presentacion__video, .img {
+  border-radius: 50%;
+  padding: 25px;
+  transition: all 1s; }
+
+.presentacion__video:hover, .img:hover {
+  border-radius: 80%;
+  padding: 15px; }
+
+.presentacion__video2 {
+  background-size: cover;
+  background-position: center;
+  margin: 40px;
+  width: 500px;
+  height: 300px; }
+
+/*caracteristicas de botones*/
+.menuHamburguesa {
+  border-radius: 20px;
+  width: auto;
+  letter-spacing: 5px;
+  padding: 15px; }
+
+.menuHamburguesa {
+  padding: 10px; }
+
+.footer__button, .modalButton {
+  border-radius: 20px;
+  padding: 15px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  margin: 100px; }
+
+.modalButton {
+  padding: 10px;
+  font-size: 15px;
+  margin: 15px 15px; }
+
+/*caracteristicas de img*/
+.imagen {
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; }
+
+.imagen {
+  padding: 15px;
+  width: 30%;
+  height: 50%; }
+
+.imagenT {
+  background-size: cover;
+  background-position: center;
+  padding: 15px; }
+
+/*caracteristicas de las navbar*/
+.navBar2, .navBar {
+  padding: 15px;
+  justify-content: center; }
+
+@media screen and (max-width: 991px) {
+  .navBar2, .navBar, .navBar {
+    justify-content: start; } }
+
+.navSection, .navSection2 {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding: 10px; }
+
+.navSection2:hover {
+  font-weight: bolder; }
+
+.navSection:hover, .navSection2:hover {
+  font-weight: bolder; }
+
+/*caracteristicas de los titulos de secciones, objetos, subtitulos, footers y formulario*/
+.nombreLibro {
+  font-size: 25px;
+  padding: 15px; }
+
+.footer {
+  font-size: 25px;
+  padding: 70px; }
+
+.dLibro {
+  font-size: 20px;
+  padding: 15px; }
+
+.nombre {
+  font-size: 25px;
+  padding: 50px;
+  text-align: center; }
+
+.campos {
+  font-size: 20px;
+  padding: 15px; }
+
+.descripcion2 {
+  font-size: 17px; }
+
+.headerSeccion {
+  font-size: 35px;
+  letter-spacing: 5px;
+  padding: 20px;
+  margin: 15px 15px;
+  text-align: center;
+  font-weight: lighter; }
+
+.tituloSeccion, .libros {
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: bolder; }
+
+.descripcion, .libros, .tallers, .descripcion2, .tituloSeccion {
+  padding: 40px;
+  text-align: center;
+  font-size: 25px; }
+
+/*esta es la animacion de los headers y titulos de secciones*/
+.animate__animated .animate__fadeIn {
+  --animate-duration: 3s; }
+
+.animate__animated .animate__fadeInDown {
+  --animate-duration: 1s;
+  animation-delay: 10s; }
+
+.tituloSeccion, .libros {
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: bolder; }
+
+.descripcion, .libros, .tallers, .descripcion2, .tituloSeccion {
+  padding: 40px;
+  text-align: center;
+  font-size: 25px; }
